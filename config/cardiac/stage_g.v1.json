@@ -1,0 +1,21 @@
+{
+  "schema": "stage-g-v1",
+  "seed": 20261114,
+  "epochs": 30,
+  "width": 64,
+  "coherence_candidates": [0.25, 2.0],
+  "constraint_rows": 2048,
+  "conditional_particles": 8,
+  "synthetic_train": 5000,
+  "synthetic_validation": 1500,
+  "synthetic_test": 4000,
+  "worlds": ["curved_interaction", "disconnected_regions"],
+  "bootstrap_repeats": 1000,
+  "false_negative_penalty": 20,
+  "false_positive_penalty": 1,
+  "cost_multiplier": 0.0025,
+  "costs": [2, 2, 2, 2, 20, 12],
+  "clinical_selection": "four locked inner folds; mean panel Brier; ties smaller beta",
+  "probabilities": "native sigmoid; no posthoc calibration that could break tower consistency",
+  "clinical_estimand": "observational prelandmark record lookup, not counterfactual new orders"
+}

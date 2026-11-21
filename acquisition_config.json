@@ -1,0 +1,53 @@
+{
+  "seed": 20261113,
+  "false_negative_penalty": 20.0,
+  "false_positive_penalty": 1.0,
+  "test_cost_multiplier": 0.0025,
+  "cost_units": "hypothetical_relative_units_not_dollars",
+  "costs": [
+    2,
+    2,
+    2,
+    2,
+    20,
+    12
+  ],
+  "turnaround_minutes": [
+    60,
+    60,
+    60,
+    60,
+    120,
+    60
+  ],
+  "deadline_minutes": 480,
+  "synthetic_budgets": [
+    8,
+    20,
+    40
+  ],
+  "bootstrap_repeats": 2000,
+  "synthetic_train": 5000,
+  "synthetic_validation": 600,
+  "synthetic_test": 2000,
+  "synthetic_worlds": [
+    "redundancy",
+    "interaction",
+    "null_laboratory"
+  ],
+  "synthetic_failure_probability": 0.05,
+  "minimum_particle_ess": 1.0,
+  "prespecified_policy_names": [
+    "no_tests",
+    "fixed_routine",
+    "fixed_all",
+    "fixed_best",
+    "geometric_myopic",
+    "standard_evoi",
+    "uncertainty_entropy"
+  ],
+  "synthetic_additional_policies": [
+    "geometric_depth2",
+    "standard_evoi_depth2"
+  ]
+}

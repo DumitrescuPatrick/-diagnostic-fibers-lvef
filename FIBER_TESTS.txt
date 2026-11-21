@@ -1,0 +1,45 @@
+Matplotlib is building the font cache; this may take a moment.
+test_audit_is_honest_and_has_no_outcome_argument (test_cardiac_clinical_revision.ClinicalRevisionTests.test_audit_is_honest_and_has_no_outcome_argument) ... ok
+test_constant_audit_is_zero (test_cardiac_clinical_revision.ClinicalRevisionTests.test_constant_audit_is_zero) ... ok
+test_grid_and_population_specification (test_cardiac_clinical_revision.ClinicalRevisionTests.test_grid_and_population_specification) ... ok
+test_hidden_value_and_availability_noninterference (test_cardiac_clinical_revision.ClinicalRevisionTests.test_hidden_value_and_availability_noninterference) ... ok
+test_zero_penalty_is_exact_control (test_cardiac_clinical_revision.ClinicalRevisionTests.test_zero_penalty_is_exact_control) ... ok
+test_audit_is_honest_and_has_no_outcome_argument (test_cardiac_clinical_revision_v2.ClinicalRevisionTests.test_audit_is_honest_and_has_no_outcome_argument) ... ok
+test_constant_audit_is_zero (test_cardiac_clinical_revision_v2.ClinicalRevisionTests.test_constant_audit_is_zero) ... ok
+test_grid_and_population_specification (test_cardiac_clinical_revision_v2.ClinicalRevisionTests.test_grid_and_population_specification) ... ok
+test_hidden_value_and_availability_noninterference (test_cardiac_clinical_revision_v2.ClinicalRevisionTests.test_hidden_value_and_availability_noninterference) ... ok
+test_zero_penalty_is_exact_control (test_cardiac_clinical_revision_v2.ClinicalRevisionTests.test_zero_penalty_is_exact_control) ... ok
+test_calibration_aggregation (test_cardiac_revision_statistics.RevisionStatisticsTests.test_calibration_aggregation) ... ok
+test_crossed_seed_weights (test_cardiac_revision_statistics.RevisionStatisticsTests.test_crossed_seed_weights) ... ok
+test_point_and_loss (test_cardiac_revision_statistics.RevisionStatisticsTests.test_point_and_loss) ... ok
+test_conditional_donors (test_cardiac_stage_g.StageGTests.test_conditional_donors) ... ok
+test_cost_rule (test_cardiac_stage_g.StageGTests.test_cost_rule) ... ok
+test_exact_tower (test_cardiac_stage_g.StageGTests.test_exact_tower) ... ok
+test_hidden_values_and_missingness_do_not_leak (test_cardiac_stage_g.StageGTests.test_hidden_values_and_missingness_do_not_leak) ... ok
+test_kernel_no_outcome_argument (test_cardiac_stage_g.StageGTests.test_kernel_no_outcome_argument) ... ok
+test_relu_and_determinism (test_cardiac_stage_g.StageGTests.test_relu_and_determinism) ... ok
+test_budget_and_deadline_are_shared_constraints (test_f_policy.AdaptivePolicyTests.test_budget_and_deadline_are_shared_constraints) ... ok
+test_error_penalties_determine_common_terminal_threshold (test_f_policy.AdaptivePolicyTests.test_error_penalties_determine_common_terminal_threshold) ... ok
+test_exact_geometric_and_standard_voi_match (test_f_policy.AdaptivePolicyTests.test_exact_geometric_and_standard_voi_match) ... ok
+test_failure_cost_retained_no_observation (test_f_policy.AdaptivePolicyTests.test_failure_cost_retained_no_observation) ... ok
+test_hidden_values_cannot_affect_first_action (test_f_policy.AdaptivePolicyTests.test_hidden_values_cannot_affect_first_action) ... ok
+test_missing_record_is_not_a_test_result_or_real_failure (test_f_policy.AdaptivePolicyTests.test_missing_record_is_not_a_test_result_or_real_failure) ... ok
+test_null_world_does_not_buy_irrelevant_labs (test_f_policy.AdaptivePolicyTests.test_null_world_does_not_buy_irrelevant_labs) ... ok
+test_pair_lookahead_detects_symmetric_interaction (test_f_policy.AdaptivePolicyTests.test_pair_lookahead_detects_symmetric_interaction) ... ok
+test_synthetic_populations_and_all_potential_results_are_reproducible (test_f_policy.AdaptivePolicyTests.test_synthetic_populations_and_all_potential_results_are_reproducible) ... ok
+test_tower_property_and_no_negative_bayes_value (test_f_policy.AdaptivePolicyTests.test_tower_property_and_no_negative_bayes_value) ... ok
+test_conditional_donors (test_g.StageGTests.test_conditional_donors) ... ok
+test_cost_rule (test_g.StageGTests.test_cost_rule) ... ok
+test_exact_tower (test_g.StageGTests.test_exact_tower) ... ok
+test_hidden_values_and_missingness_do_not_leak (test_g.StageGTests.test_hidden_values_and_missingness_do_not_leak) ... ok
+test_kernel_no_outcome_argument (test_g.StageGTests.test_kernel_no_outcome_argument) ... ok
+test_relu_and_determinism (test_g.StageGTests.test_relu_and_determinism) ... ok
+test_constant_is_coherent_but_inaccurate (test_mathematics.PublicationMathematics.test_constant_is_coherent_but_inaccurate) ... ok
+test_eight_particle_variance_bias (test_mathematics.PublicationMathematics.test_eight_particle_variance_bias) ... ok
+test_parameter_inventory (test_mathematics.PublicationMathematics.test_parameter_inventory) ... ok
+test_restricted_projection_nonidentifiability (test_mathematics.PublicationMathematics.test_restricted_projection_nonidentifiability) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.908s
+
+OK

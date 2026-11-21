@@ -1,0 +1,190 @@
+{
+  "repository": "diagnostic-fibers-lvef",
+  "release": "minimal-code-v1",
+  "scope": "Source, configuration, synthetic tests and public README only",
+  "software_tests_passed": 39,
+  "patient_or_database_files_included": false,
+  "research_results_manuscripts_figures_weights_included": false,
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 354,
+      "sha256": "f5ebede1c8350f8b9e3c844940ac3a9f6a127ee0179f0e4135ce3401b5d4f2a8"
+    },
+    {
+      "file": "README.md",
+      "bytes": 3105,
+      "sha256": "c5cc395280948e991df3fceba63e56dc291f137498c5ea1b6218d24309f4a144"
+    },
+    {
+      "file": "acquisition_config.json",
+      "bytes": 949,
+      "sha256": "229deb06566e887acdb175fcc4ce579a4e649dc6d312796c28c0b8e8229dcc95"
+    },
+    {
+      "file": "config/cardiac/clinical_neural_revision.v1.json",
+      "bytes": 2559,
+      "sha256": "af1b316881a03871c338549cce97c9f55137b5aff55128ece245efd051d8c794"
+    },
+    {
+      "file": "config/cardiac/clinical_neural_revision.v2.json",
+      "bytes": 2940,
+      "sha256": "a4cf19dd33e64e2ecc3596c1f676c1074e882ab02b91519a134cd69b68b20e7d"
+    },
+    {
+      "file": "config/cardiac/stage_g.v1.json",
+      "bytes": 756,
+      "sha256": "6a41283701d7aef9ca3dac1ffce4e0901cd661cf2213fb627984dd63e0bbd8b2"
+    },
+    {
+      "file": "docs/cardiac/CLINICAL_NEURAL_REVISION_V2.md",
+      "bytes": 8216,
+      "sha256": "78b3c2518e151554da65909d7f07afec36b8d1622ccea169e351f03be6f61daa"
+    },
+    {
+      "file": "requirements.lock.txt",
+      "bytes": 94,
+      "sha256": "71b2c433908896fc4976b6d23fac18e41f3a27a5164f8e4a73ab8d084948e587"
+    },
+    {
+      "file": "scripts/validate_cardiac_clinical_revision.py",
+      "bytes": 7499,
+      "sha256": "d2e60b498f3acc301b81ce639bdcbc4706c6a4d90ecae44e31d56fe7799e3e87"
+    },
+    {
+      "file": "src/diagnostic_fibers/__init__.py",
+      "bytes": 110,
+      "sha256": "ab7248b6447b67431c5fc6d1c2cb00a2a10445fd523abf9bca070293982ba545"
+    },
+    {
+      "file": "src/diagnostic_fibers/acquisition.py",
+      "bytes": 11982,
+      "sha256": "5fbe27a1ceed95ff0d0e9eca72abfe127d7474b8072a5be1364bee493b11c34f"
+    },
+    {
+      "file": "src/diagnostic_fibers/model.py",
+      "bytes": 6360,
+      "sha256": "64e8086ca955f74d1917b7a89475b1215030e47ad5e48cda78c75df7ec751917"
+    },
+    {
+      "file": "src/diagnostic_fibers/spaces.py",
+      "bytes": 1719,
+      "sha256": "09ec9547080762ab8d2dcea76ea0c130d4483f5312d0e8678a64f7ea33948867"
+    },
+    {
+      "file": "src/diagnostic_fibers/synthetic_acquisition.py",
+      "bytes": 6941,
+      "sha256": "d71d8289a89f693942c9f59696037ef9abeb2cdc59aecbf54ef2a2bfda72fa86"
+    },
+    {
+      "file": "src/medical_ai/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "src/medical_ai/cardiac/__init__.py",
+      "bytes": 85,
+      "sha256": "10bee34b436a2204950ced2f24cf213d518cc1da77fec32c4a8a1cae75b49a15"
+    },
+    {
+      "file": "src/medical_ai/cardiac/clinical_neural_revision_v2.py",
+      "bytes": 9672,
+      "sha256": "786c9d09d7eab19e5bd4541ad979aee0ee080df55cc729402fb0cfab1ae2ee77"
+    },
+    {
+      "file": "src/medical_ai/cardiac/clinical_predictors_v2.py",
+      "bytes": 5580,
+      "sha256": "067dfdd4fed12d01ea7f652b62093d339168bd531002c3d832b08915892d1d1e"
+    },
+    {
+      "file": "src/medical_ai/cardiac/clinical_revision_models.py",
+      "bytes": 4018,
+      "sha256": "e8054b20c6fac32759f103e7d6f0c81ab9ee738a677560079f886c871f49fa06"
+    },
+    {
+      "file": "src/medical_ai/cardiac/clinical_revision_statistics.py",
+      "bytes": 17505,
+      "sha256": "d978e167398a730afdcd9f75b17a1c227b164a28c2fa65b19c8d90171bf50005"
+    },
+    {
+      "file": "src/medical_ai/cardiac/data.py",
+      "bytes": 10542,
+      "sha256": "6c0f1e8b02b30bbdc48efa4cb82e898ff576f9062256aa730eee5d0acee35f30"
+    },
+    {
+      "file": "src/medical_ai/cardiac/metrics.py",
+      "bytes": 4604,
+      "sha256": "665e6a95a80275b8ddfd7d1f481452ff49bc024edfc56df1ca8e3043b1b71774"
+    },
+    {
+      "file": "src/medical_ai/cardiac/reporting.py",
+      "bytes": 3833,
+      "sha256": "ac86057e084bf181674e89bb6a11df32fbccfb24fdd018fdc02242f9e9720ace"
+    },
+    {
+      "file": "src/medical_ai/cardiac/stage_e_statistics.py",
+      "bytes": 11821,
+      "sha256": "5783baf7da8b8fae605e2656a4208129f59aa8d8e8b785b0956b70b72a8cbcf3"
+    },
+    {
+      "file": "src/medical_ai/cardiac/stage_g_model.py",
+      "bytes": 6360,
+      "sha256": "64e8086ca955f74d1917b7a89475b1215030e47ad5e48cda78c75df7ec751917"
+    },
+    {
+      "file": "src/medical_ai/cardiac/stage_g_run.py",
+      "bytes": 17960,
+      "sha256": "7d5d0f9c7a2ab1d9751e4709f4b997949a5abdd2d9121c9f0a2a6f6ffb575ba2"
+    },
+    {
+      "file": "src/medical_ai/cardiac/stage_g_synthetic.py",
+      "bytes": 1719,
+      "sha256": "09ec9547080762ab8d2dcea76ea0c130d4483f5312d0e8678a64f7ea33948867"
+    },
+    {
+      "file": "src/medical_ai/cardiac/staged_audit.py",
+      "bytes": 17180,
+      "sha256": "b19557725ffed0e2827813e31870b4f5b04347ff9191a30cb24eebb6d795032f"
+    },
+    {
+      "file": "synthetic_config.json",
+      "bytes": 638,
+      "sha256": "bf2083c10d87c5cde1906fd7abbaad42839d1d7275cbdc9f9b0c07f6e2771606"
+    },
+    {
+      "file": "tests/test_cardiac_clinical_revision.py",
+      "bytes": 2515,
+      "sha256": "4fac39d7a22f1d451d2a82ad1da3fc85b88067618e0f8b06053b1b313225c84f"
+    },
+    {
+      "file": "tests/test_cardiac_clinical_revision_v2.py",
+      "bytes": 2650,
+      "sha256": "12dcf961701d13e5cdda2f4862aca89324a4c9d3493ca9cd1ac16d2aa7951579"
+    },
+    {
+      "file": "tests/test_cardiac_revision_statistics.py",
+      "bytes": 1366,
+      "sha256": "a60b034b8a847636b73c2b969402d513b5e68555b912860c5305b6c81f5f18ec"
+    },
+    {
+      "file": "tests/test_cardiac_stage_g.py",
+      "bytes": 2784,
+      "sha256": "92f9e06f549ed34837e9c2e6b7ce64c0abe2420c354860268489c0698f942e57"
+    },
+    {
+      "file": "tests/test_f_policy.py",
+      "bytes": 5323,
+      "sha256": "a407428207b0bafe2ee8c3d4c1e76a65b6ac84076afbc0229e82f2ea6ba0131f"
+    },
+    {
+      "file": "tests/test_g.py",
+      "bytes": 2763,
+      "sha256": "5fd3d65bb30bd05581b6eb9d87c68395246a35404ef1604826bf576a50892d26"
+    },
+    {
+      "file": "tests/test_mathematics.py",
+      "bytes": 1664,
+      "sha256": "27a1f852dc59a2d508bd7c6177e129072d24c05847c9ce08c2ac17bf6d5f67ff"
+    }
+  ]
+}
